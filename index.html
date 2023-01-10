@@ -14,15 +14,8 @@
     <!-- js링크 -->
     <script src="js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/index01.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&family=Rowdies&display=swap"
-        rel="stylesheet">
-
-
-    <style>
-
-    </style>
+    rel="stylesheet">
 </head>
 
 <body>
@@ -39,9 +32,9 @@
                     </button>
                     <div class="lo">
                         <a class="navbar-brand mylogo" href="index.html">
-                            재원이의 미니게임
+                            미니게임
                         </a>
-                        <img src="img/logo.png" alt="" width="40" height="40">
+                        <img class="log" src="img/logo.png" alt="" width="40" height="40">
                     </div>
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
@@ -50,7 +43,7 @@
                         <li><a href="#">단어장</a></li>
                         <li><a href="#">숫자</a></li>
                         <li><a href="#">사진</a></li>
-                        <li><a href="#">벽돌</a></li>
+                        <li><a href="bricks.html">벽돌</a></li>
                     </ul>
                 </div>
             </div>
@@ -58,20 +51,25 @@
     </header>
 
 
-    <div class="can">
-        <div class="inner">
-            <h1>Bricks Game</h1>
-            <canvas id="myCanvas" width="500%" height="350%"></canvas>
-            <div class="btnn">
-                <button type="button" class="startBtn btn btn-success">시작</button>
-                <button type="button" class="stopBtn btn btn-warning">중지</button>
-                <button type="button" class="exitBtn btn btn-danger">종료</button>
+    <section>
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-xs-12 bricks">
+
+                </div>
+                <div class="col-xs-12">
+                </div>
+
             </div>
+
         </div>
-    </div>
 
+    </section>
 
-    <script src="js/bricks.js"></script>
+    <script src="js/index01.js"></script>
 </body>
 
 </html>
