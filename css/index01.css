@@ -60,8 +60,8 @@ img {
 
 .lo .log:hover {
     transform : rotate(1080deg);
-    height: 125px;
-    width: 125px;
+    height: 100px;
+    width: 100px;
     transition: 1.0s;
 
 }
@@ -108,4 +108,22 @@ img {
     position: absolute;
     left: vh;
 
+}
+
+.gamedef {
+    border: 1px solid #777; 
+    text-align: center;
+}
+
+
+.container .titl{
+    border: 1px solid #777; 
+}
+
+.container .sub{
+    border: 1px solid #777; 
+    text-align: center;
+}
+.container .def{
+    border: 1px solid #777; 
 }
